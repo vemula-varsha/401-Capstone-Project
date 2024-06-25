@@ -1,0 +1,42 @@
+body{
+    background:linear-gradient(to left,rgb(110, 149, 214),rgba(180, 230, 246, 0.996));
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     
+ }
+
+ form{
+     background-image: url('scenary.jpg');
+     background-size:cover;
+     background-repeat: no-repeat;
+     width: 300px;
+     height: 250px;
+     margin-top: 10%;
+     border: 2px solid grey;
+     padding: 50px;
+     text-align: center;
+ }
+ input{
+     padding: 3px;
+     padding-left: 30px;
+     background: whitesmoke;
+     width: 250px;
+     height: 30px;
+     margin: 10px;
+     border: 2px solid rgb(20, 139, 185);
+ }
+button{
+ font-size: 15px;
+ background-color: rgb(149, 216, 249);
+     margin: 20px;
+     width: 70px;
+     height: 35px;
+     color: black;
+     border: 2px solid rgb(148, 216, 229);
+     border-radius: 20px;
+}
+button:hover{
+background-color: rgb(98, 185, 223);
+border: 2px solid rgb(13, 177, 252) ;
+}
